@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: #1a1a1a;
+}
+
+html,
+body,
+input,
+textarea {
+  font-family: "Inter", sans-serif;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #1E6F9F;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  margin-right: 10px;
+}
+
+input[type="checkbox"]:hover {
+  border: 1px solid #1E6F9F;
+  background-color: rgba(30, 111, 159, 0.2);
+}
+
+input[type="checkbox"]:checked{
+    background-color: #8284FA;
+    border: #5E60CE;
+}
+
+input[type="checkbox"]:checked:hover{
+    background-color: #5E60CE;
+    border: #5E60CE;
+}
+
+.clicked {
+    text-decoration: line-through; /* Exemplo: riscar o texto */
+    color: gray; /* Exemplo: mudar a cor do texto */
+  }
