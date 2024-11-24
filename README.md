@@ -8,7 +8,7 @@ Este projeto permite criar, marcar como concluídas e excluir tarefas de forma i
 
 Abaixo está uma prévia visual do layout da aplicação:
 
-![Mockup](foto.png)
+![Mockup](./foto.png)
 
 ## 🚀 Tecnologias Utilizadas
 
